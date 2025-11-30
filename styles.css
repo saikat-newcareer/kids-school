@@ -6,6 +6,12 @@
   font-style: normal;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -26,9 +32,10 @@
 }
 .header a{
     text-decoration: none;
-    color: inherit;
 }
-
+.nav-school{
+    color: black;
+}
 .nav-bar-name{
     display: flex;
     gap: 30px;
@@ -102,4 +109,25 @@ ul a{
     border: none;
     font-size: 1.25rem;
     font-weight: bold;
+    cursor: pointer;
 }
+
+.standard-curriculum{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-heading{
+    text-align: center;
+    top: 500px;
+    z-index: 2;
+}
+.bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
