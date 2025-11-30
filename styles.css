@@ -1,0 +1,105 @@
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 150px;
+}
+
+.nav-bar{
+    /* display: flex; */
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-bar-name{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul a{
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 1.25rem;
+}
+.home{
+    color: orange;
+}
+.about{
+    color: skyblue;
+}
+.facilities{
+    color: #05D4DF;  
+}
+.admission{
+    color: #5D58EF;
+}
+
+.btn{
+    color: #FFFFFF;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    width: 197px;
+    height: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    margin: auto 150px ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-left{
+    display: grid;
+    grid-template-columns: repeat(1fr 1);
+}
+
+.headline{
+    width: 550px;
+    height: 183px;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding-bottom: 24px;
+}
+
+.towards{
+    color: skyblue;
+}
+.sub-title{
+    width: 630px;
+    height: 50px;
+}
+.enroll-btn{
+    background-color: black;
+    color: #FFFFFF;
+    width: 197px;
+    height: 50px;
+    padding: 10px 45px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
